@@ -34,7 +34,7 @@ border-color: grey;
 
 #default {
   margin: 0 auto;
-    padding: 40px 00px 0px 20px;
+    padding: 0px 0px 0px 20px;
     display: block;
     float: left;
     line-height: 0;
@@ -51,14 +51,18 @@ border-color: grey;
 
 }  
 
+.top {
+  margin-top: 30px;
+
+}
 
 .card {
-  margin-top: 10px;
+  margin-top: 20px;
 
 }
 
 .card-header{
-  height: 48px;
+  height: 65px;
 }
 
 
