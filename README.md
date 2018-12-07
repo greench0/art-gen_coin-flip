@@ -1,1 +1,1 @@
-# art-gen_coin-flip
+Art Generator:: Coin Flip app
