@@ -1,6 +1,19 @@
 $(document).ready(function () {
 //================================================================================================================================================================================//
 //================================================================================================================================================================================//
+// save function
+
+document.querySelector('#save').addEventListener('click', function() {
+  html2canvas(document.querySelector('#art-board'), {
+      onrendered: function(canvas) {
+          // document.body.appendChild(canvas);
+        return Canvas2Image.saveAsPNG(canvas, 6000, 6000);
+      }
+  });
+});
+
+
+
 
 function clearArt () {
   $( "#art-board" ).empty();
